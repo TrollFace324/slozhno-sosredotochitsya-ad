@@ -54,7 +54,6 @@
   top: 0;
   right: 0;
   margin: var(--padding-for-decor);
-  columns: var(--color-rec);
   color: var(--color-rec);
   padding-right: 8px;
 }
@@ -88,7 +87,7 @@
 
 .header__theme-menu {
   display: flex;
-  justify-content: flex-end;
+  justify-content: end;
 }
 
 .header__theme-menu-list {
@@ -320,7 +319,7 @@
 
   .section_first {
     display: grid;
-    grid-template-columns: 236px 472px;
+    grid-template-columns: 1fr 2fr;
     gap: 20px;
   }
 
@@ -335,7 +334,7 @@
 
   .section_third {
     display: grid;
-    grid-template-columns: 236px 472px;
+    grid-template-columns: 1fr 2fr;
     gap: 20px;
   }
 }
@@ -348,7 +347,7 @@
 
   .section_first {
     display: grid;
-    grid-template-columns: 315px 649px;
+    grid-template-columns: 1fr 2fr;
     gap: 20px;
   }
 
